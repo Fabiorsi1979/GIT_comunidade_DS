@@ -63,7 +63,7 @@ def create_answers_section(df):
     
     return None
 
->>>>>>> d37a5c8597c82ab70bb6d524eb1f2a390a1545c3
+>>>>>>> d37a5c8597c82ab70bb6d524eb1f2a390a1545c3 
 def main ():
     df_raw = load_data()
 
