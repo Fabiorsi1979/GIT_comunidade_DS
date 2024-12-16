@@ -269,7 +269,7 @@ def to_excel(df):
 
     worksheet.set_column("A:A", None)
 
-    writer.save()
+    writer.close()  # Uso correto para salvar o arquivo
 
     processed_data = output.getvalue()
 
